@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		E3AF86D922F88221006A338E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3AF86D822F88221006A338E /* main.m */; };
 		E3AF86DF22F88274006A338E /* NSObject+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = E3AF86DE22F88274006A338E /* NSObject+Swizzling.m */; };
+		E3C556B522F8882B002C0CEC /* NSArray+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C556B422F8882B002C0CEC /* NSArray+Category.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		E3AF86D822F88221006A338E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E3AF86DD22F88274006A338E /* NSObject+Swizzling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzling.h"; sourceTree = "<group>"; };
 		E3AF86DE22F88274006A338E /* NSObject+Swizzling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzling.m"; sourceTree = "<group>"; };
+		E3C556B322F8882B002C0CEC /* NSArray+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Category.h"; sourceTree = "<group>"; };
+		E3C556B422F8882B002C0CEC /* NSArray+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Category.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				E3AF86D822F88221006A338E /* main.m */,
 				E3AF86DD22F88274006A338E /* NSObject+Swizzling.h */,
 				E3AF86DE22F88274006A338E /* NSObject+Swizzling.m */,
+				E3C556B322F8882B002C0CEC /* NSArray+Category.h */,
+				E3C556B422F8882B002C0CEC /* NSArray+Category.m */,
 			);
 			path = "数组越界";
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3AF86D922F88221006A338E /* main.m in Sources */,
+				E3C556B522F8882B002C0CEC /* NSArray+Category.m in Sources */,
 				E3AF86DF22F88274006A338E /* NSObject+Swizzling.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -36,6 +36,10 @@ int main(int argc, const char * argv[]) {
         Person *p = [Person new];
         [p work];
         [p study];
+        
+        NSArray *arr = @[@1, @2];
+        NSNumber *e = [arr objectAtIndex:2];
+        NSLog(@"%@", e);
     }
     return 0;
 }
