@@ -13,7 +13,10 @@
 @implementation NSArray (Category)
 
 + (void)load {
-    [objc_getClass("__NSArrayI") swizzleMethod:@selector(objectAtIndex:) method:@selector(my_objectAtIndex:)];
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        [objc_getClass("__NSArrayI") swizzleMethod:@selector(objectAtIndex:) method:@selector(my_objectAtIndex:)];
+    });
 }
 
 - (id)my_objectAtIndex:(NSUInteger)index {
